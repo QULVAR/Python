@@ -1,0 +1,6 @@
+c1 = set(list(map(int, input().split())))
+c2 = set(list(map(int, input().split())))
+c3 = c1.union(c2)
+print("all, ", len(c3), c3)
+print("c1, ", len(c1), c1)
+print("c2, ", len(c2), c2)
